@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweet Moments</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="bootstrap.js"></script>
+    <style>
+
+        .hero-section{
+            padding:200px;
+            background: url("./pictures/pictures/restaurant_picture.png");
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            background-repeat: no-repeat;
+        }
+        .display-3{
+            color:white;
+        }
+        .mb-4{
+            color:white;
+        }
+
+        .btn-warning {
+            background-color: orange; border: none; font-weight: bold; padding: 10px 25px;
+        }
+        .dish-card {
+            border: none; border-radius: 10px; overflow: hidden;
+        }
+        .dish-price {
+            color: orange; font-weight: bold;
+        }
+
+        .section-title {
+            font-weight: bold; margin-bottom: 40px;
+        }
+
+        .card-img-top{
+            width: 400px;
+            height: 300px;
+        }
+        .img-fluid{
+            width: 600px;
+            height: 400px;
+        }
+        .fw-bold{
+            color: #6a5353;
+            text-align: center;
+        }
+
+    </style>
+
+
+</head>
+<body>
+
+
+<header class="hero-section text-center">
+    <div class="container">
+        <h1 class="display-3 fw-bold">Welcome to Sweet Moments</h1>
+        <p class="lead mb-4">Delicious pastries and a cozy atmpsphere await you <br>Enjoy our freshly baked tests made with love</br></p>
+        <button class="btn btn-warning btn-lg">View our Menu</button>
+    </div>
+</header>
+
+<section class="container my-5 py-5">
+    <h2 class="text-center section-title">Feature Products</h2>
+    <div class="row g-4">
+        <div class="col-md-4">
+            <div class="dish-card bg-white h-100">
+                <img src="./pictures/pictures/chocolate-cake.png" class="card-img-top" alt="Pasta">
+                <div class="card-body">
+                    <h5 class="fw-bold">Chocolate cake</h5>
+                    <p class="text-muted small">Rich and moist chocolate cake topped with creamy chocolate frosting and fresh <berries>                                                                                                                 </berries>.</p>
+                    <p class="dish-price">$4.99</p>
+                    <button class="btn btn-warning btn-lg">Order now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="dish-card bg-white h-100">
+                <img src="./pictures/pictures/croissant.png" class="card-img-top" alt="Cros">
+                <div class="card-body">
+                    <h5 class="fw-bold">Croissant</h5>
+                    <p class="text-muted small">Buttery,falky croissant baked to golden perfection with a light,airy texture.</p>
+                    <p class="dish-price">$2.49</p>
+                    <button class="btn btn-warning btn-lg">Order now</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="dish-card bg-white h-100">
+                <img src="./pictures/pictures/cheesecake.png" class="card-img-top" alt="Dessert">
+                <div class="card-body">
+                    <h5 class="fw-bold">Cheesecake</h5>
+                    <p class="text-muted small">Creamy,classic chesscake with a graham creaker crust,topped with fresh beries.</p>
+                    <p class="dish-price">$5.99</p>
+                    <button class="btn btn-warning btn-lg">Order now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5 py-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <img src="./pictures/pictures/about-us.png" class="img-fluid rounded shadow" alt="Interior">
+        </div>
+        <div class="col-md-6 ps-md-5">
+            <h2 class="fw-bold mb-4">About us</h2>
+            <p>At sweet moments, we are passionate about baking! Our cozy cafe is perfect place to relax and include in delightfull pastires and desserts.
+                We use only the finest ingridients to bake our trets fresh daily</p>
+            <button class="btn btn-warning btn-lg">Learn now</button>
+        </div>
+    </div>
+</section>
+
+<section class="container my-5 py-5 bg-white shadow-sm rounded">
+    <div class="px-4">
+        <h3 class="fw-bold mb-4">Make a Reservation</h3>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label class="form-label fw-bold">Full Name</label>
+                <input type="text" class="form-control" placeholder="Your Name">
+            </div>
+            <div class="col-md-6">
+                <label class="form-label fw-bold">Email</label>
+                <input type="email" class="form-control" placeholder="you@example.com">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Date</label>
+                <input type="date" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Time</label>
+                <input type="time" class="form-control">
+            </div>
+            <div class="col-md-4">
+                <label class="form-label">Time</label>
+                <input type="time" class="form-control">
+            </div>
+
+            <div class="input-group">
+                <label class="form-label">Number of guests</label>
+                <textarea placeholder="Special request" class="form-control" aria-label="With textarea"></textarea>
+                <div class="col-12 mt-4">
+                    <button type="submit" class="btn btn-warning">Book now</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+
+
+
+<script src="bootstrap.js"></script>
+</body>
+</html>

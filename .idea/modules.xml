@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+<<<<<<< HEAD
+      <module fileurl="file://$PROJECT_DIR$/.idea/BootStrapDizajnInterkacijaCovekKompjuter.iml" filepath="$PROJECT_DIR$/.idea/BootStrapDizajnInterkacijaCovekKompjuter.iml" />
+=======
+      <module fileurl="file://$PROJECT_DIR$/.idea/Django Dizjan Interakcija Covek Kompjuter.iml" filepath="$PROJECT_DIR$/.idea/Django Dizjan Interakcija Covek Kompjuter.iml" />
+>>>>>>> 191719a210b6dded6dddd74f6e9d8db0f1b3b6bf
+    </modules>
+  </component>
+</project>
